@@ -1,0 +1,1211 @@
+{
+  "pages": {
+    "login": {
+      "title": "Sign in to your account",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "divider": "or",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Login",
+        "forgotPassword": "Forgot password?",
+        "noAccount": "Don’t have an account?",
+        "rememberMe": "Remember me"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Send reset instructions"
+      }
+    },
+    "register": {
+      "title": "Sign up for your account",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Register",
+        "haveAccount": "Have an account?"
+      }
+    },
+    "updatePassword": {
+      "title": "Update password",
+      "fields": {
+        "password": "New Password",
+        "confirmPassword": "Confirm new password"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Passwords do not match"
+      },
+      "buttons": {
+        "submit": "Update"
+      }
+    },
+    "error": {
+      "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+      "404": "Sorry, the page you visited does not exist.",
+      "resource404": "Are you sure you have created the {{resource}} resource.",
+      "backHome": "Back Home"
+    }
+  },
+  "actions": {
+    "list": "List",
+    "create": "Create",
+    "edit": "Edit",
+    "show": "Show",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "buttons": {
+    "add": "Add",
+    "create": "Create",
+    "save": "Save",
+    "logout": "Logout",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm": "Are you sure?",
+    "filter": "Filter",
+    "clear": "Clear",
+    "refresh": "Refresh",
+    "show": "Show",
+    "undo": "Undo",
+    "import": "Import",
+    "export": "Export",
+    "clone": "Clone",
+    "accept": "Accept",
+    "acceptAll": "Accept All",
+    "reject": "Reject",
+    "rejectAll": "Reject All",
+    "nextStep": "Next",
+    "previousStep": "Previous",
+    "uploadImage": "Upload Image"
+  },
+  "labels": {
+    "image": "Image"
+  },
+  "other": {
+    "enter": "Enter "
+  },
+  "loading": "Loading",
+  "tags": {
+    "clone": "Clone"
+  },
+  "table": {
+    "actions": "Actions",
+    "inTotal": "in total"
+  },
+  "search": {
+    "placeholder": "Search by Store ID, E-mail, Keyword",
+    "more": "more"
+  },
+  "isActive": {
+    "placeholder": "Search by Status",
+    "label": "Status",
+    "true": "Active",
+    "false": "Ideal"
+  },
+  "status": {
+    "label": "Status",
+    "enable": "Enable",
+    "disable": "Disable"
+  },
+  "onFooter": {
+    "label": "On Footer",
+    "enable": "Yes",
+    "disable": "No"
+  },
+  "yesno": {
+    "label": "Status",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "read": {
+    "label": "Read",
+    "read": "read",
+    "new": "new"
+  },
+  "gender": {
+    "label": "Gender",
+    "Male": "Male",
+    "Female": "Female",
+    "Unisex": "Unisex"
+  },
+  "warnWhenUnsavedChanges": "Are you sure you want to leave? You have unsaved changes.",
+  "notifications": {
+    "success": "Successful",
+    "error": "Error (status code: {{statusCode}})",
+    "undoable": "You have {{seconds}} seconds to undo",
+    "createSuccess": "Successfully created {{resource}}",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": {
+      "title": "Overview"
+    },
+    "filter": {
+      "title": "Filters",
+      "date": {
+        "lastWeek": "Last Week",
+        "lastMonth": "Last Month",
+        "lastYear": "Last Year"
+      }
+    },
+    "deliveryMap": {
+      "title": "Delivery Map"
+    },
+    "orders": {
+      "title": "Orders"
+    },
+    "revenue": {
+      "title": "Revenue"
+    },
+    "totalSales": {
+      "title": "Total Sales"
+    },
+    "dailyRevenue": {
+      "title": "Daily Revenue"
+    },
+    "dailyOrders": {
+      "title": "Daily Orders"
+    },
+    "newCustomers": {
+      "title": "New Customers"
+    },
+    "timeline": {
+      "title": "Timeline",
+      "orderStatuses": {
+        "pending": "Preparing order",
+        "ready": "Order is ready",
+        "on the way": "Order is on the way",
+        "delivered": "Order is delivered",
+        "cancelled": "Order is cancelled"
+      }
+    },
+    "recentOrders": {
+      "title": "Recent Orders"
+    },
+    "trendingMenus": {
+      "title": "Daily Trending Menus"
+    },
+    "trendingProducts": {
+      "title": "Trending Products"
+    }
+  },
+  "enum": {
+    "orderStatuses": {
+      "Pending": "Pending",
+      "Ready": "Ready",
+      "On The Way": "On the way",
+      "Delivered": "Delivered",
+      "Cancelled": "Cancelled"
+    },
+    "status": {
+      "Active": "Active",
+      "Inactive": "Inactive"
+    }
+  },
+  "orders": {
+    "orders": "Orders",
+    "order": "Order",
+    "titles": {
+      "deliveryMap": "Delivery Map",
+      "deliveryDetails": "Delivery Details",
+      "products": "Products",
+      "list": "Orders",
+      "show": "Order"
+    },
+    "fields": {
+      "orderNumber": "Order Number",
+      "orderID": "Order ID",
+      "status": "Status",
+      "store": "Store",
+      "user": "User",
+      "products": "Products",
+      "createdAt": "CreatedAt",
+      "amount": "Amount",
+      "itemsAmount": "{{amount}} items",
+      "order": "Order",
+      "customer": "Customer",
+      "courier": "Courier",
+      "phone": "Phone",
+      "deliveryTime": "Delivery Time"
+    },
+    "filter": {
+      "title": "Filters",
+      "search": {
+        "label": "Search",
+        "placeholder": "Order Number, User, etc."
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Order Status"
+      },
+      "store": {
+        "label": "Store",
+        "placeholder": "Search Stores"
+      },
+      "user": {
+        "label": "User",
+        "placeholder": "Search Users"
+      },
+      "customer": {
+        "label": "Customer",
+        "placeholder": "Search Customers"
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "orderNumber": {
+        "label": "Order Number",
+        "placeholder": "Search Order Number"
+      },
+      "submit": "Filter"
+    },
+    "courier": {
+      "deliveryTime": "Delivery Time",
+      "phone": "Phone"
+    },
+    "deliverables": {
+      "deliverables": "Deliverables",
+      "fields": {
+        "items": "Items",
+        "quantity": "Quantity",
+        "price": "Price",
+        "total": "Total"
+      },
+      "mainTotal": "MAIN TOTAL"
+    }
+  },
+  "products": {
+    "products": "Products",
+    "titles": {
+      "list": "Products",
+      "create": "Create Product",
+      "edit": "Edit Product"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "slug": "Slug",
+      "short_name": "Short Note",
+      "brand": "Brand",
+      "description": "Description",
+      "isActive": {
+        "label": "Status",
+        "true": "Available",
+        "false": "Unavailable"
+      },
+      "price": "Price",
+      "agegroup": "Age Group",
+      "discount": "Discount",
+      "rating": "Rating",
+      "views": "Views",
+      "stock": "Stock",
+      "gender": "Gender",
+      "keywords": "Keywords",
+      "category": "Category",
+      "feature_image": {
+        "label": "Images",
+        "description": "Upload Image",
+        "validation": "must be 1080x1080 px"
+      },
+      "createdAt": "CreatedAt"
+    },
+    "filter": {
+      "title": "Filters",
+      "allCategories": {
+        "label": "All Categories",
+        "placeholder": "All Categories"
+      },
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Search Description"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Search Category"
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "true": "Available",
+        "false": "Unavailable"
+      }
+    },
+    "actions": {
+      "add": "Add new product",
+      "edit": "Edit product"
+    }
+  },
+  "ads": {
+    "ads": "Ads",
+    "titles": {
+      "list": "Ads List",
+      "create": "Create Ads"
+    },
+    "fields": {
+      "feature_image": {
+        "label": "Images",
+        "description": "Upload Image",
+        "validation": "must be 1080x1080 px"
+      },
+      "name": "Name",
+      "link": "Link"
+    }
+  },
+  "coupons": {
+    "coupons": "Coupons",
+    "titles": {
+      "list": "Coupons List",
+      "create": "Create Coupon"
+    },
+    "fields": {
+      "name": "Name",
+      "code": "Code",
+      "type": "Type",
+      "uses": "Uses",
+      "value": "Value",
+      "uses_limit": "Uses Limit",
+      "ends_on": "Ends On"
+    },
+    "filter": {
+      "title": "Filters",
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter Name"
+      },
+      "code": {
+        "label": "Code",
+        "placeholder": "Enter Code"
+      },
+      "type": {
+        "label": "Type",
+        "placeholder": "Select Type"
+      },
+      "uses": {
+        "label": "Uses",
+        "placeholder": "Enter Uses"
+      },
+      "value": {
+        "label": "Value",
+        "placeholder": "Enter Value"
+      }
+    },
+    "actions": {
+      "add": "Add Coupon",
+      "delete": "Delete Coupon"
+    }
+  },
+  "promotions": {
+    "promotions": "Promotions",
+    "titles": {
+      "tcategory": "Trending Categories",
+      "fcategory": "Featured Categories",
+      "adslist": "Ads List",
+      "servicelist": "Service List"
+    },
+    "fields": {
+      "categoryList": "Category List",
+      "addedToTrending": "Added To Trending",
+      "addedToFeatured": "Added To Featured"
+    },
+    "actions": {
+      "addAds": "Add Ads",
+      "addServices": "Add Service"
+    }
+  },
+  "attributes": {
+    "attributes": "Attributes",
+    "titles": {
+      "list": "Attributes",
+      "create": "Create Attribute",
+      "edit": "Edit Attribute"
+    },
+    "fields": {
+      "id": "ID",
+      "attribute": "Attributes",
+      "price": "Price",
+      "stock": "Stock",
+      "default": "Default",
+      "createdAt": "CreatedAt"
+    },
+    "filter": {
+      "title": "Filters",
+      "allCategories": {
+        "label": "All Categories",
+        "placeholder": "All Categories"
+      },
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Search Description"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Search Category"
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "true": "Available",
+        "false": "Unavailable"
+      }
+    },
+    "actions": {
+      "add": "Add attribute",
+      "edit": "Edit attribute",
+      "addField": "Add Field"
+    }
+  },
+  "reviews": {
+    "reviews": "Reviews",
+    "titles": {
+      "list": "Reviews"
+    },
+    "fields": {
+      "avatar": "Avatar",
+      "user": "User",
+      "product": "Product",
+      "orderId": "Order",
+      "message": "Message",
+      "rating": "Rating"
+    },
+    "filter": {
+      "user": {
+        "label": "User",
+        "placeholder": "Search User"
+      },
+      "ratings": {
+        "label": "Rating",
+        "placeholder": "Search Rating"
+      },
+      "product": {
+        "label": "Product",
+        "placeholder": "Search Product"
+      }
+    }
+  },
+  "users": {
+    "users": "Customers",
+    "titles": {
+      "edit": "Edit Customer",
+      "list": "Customers",
+      "show": "Customer Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "avatar": {
+        "label": "Avatar",
+        "description": "Click or drag avatar image to this area to upload."
+      },
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "createdAt": "Created At",
+      "addresses": "Addresses",
+      "isActive": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "true": "Active",
+        "false": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "gsm": {
+        "label": "Gsm",
+        "placeholder": "Search Gsm"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "FirstName, lastName, gsm, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "gender": {
+        "label": "Gender",
+        "placeholder": "Gender",
+        "male": "Male",
+        "female": "Female"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "addresses": {
+      "addresses": "Addresses",
+      "address": "Address"
+    }
+  },
+  "admins": {
+    "admins": "Admins",
+    "titles": {
+      "edit": "Edit Admin",
+      "list": "Admins",
+      "show": "Admin Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Avatar",
+        "description": "Upload Avatar"
+      },
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "true": "Active",
+        "false": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "email": {
+        "label": "email",
+        "placeholder": "Search Email"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name,email, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add admin",
+      "edit": "Edit admin"
+    }
+  },
+  "subscribers": {
+    "subscribers": "Subscribers",
+    "titles": {
+      "list": "Subscribers"
+    },
+    "fields": {
+      "id": "ID",
+      "email": "Email",
+      "createdAt": "Created At"
+    }
+  },
+  "sections": {
+    "sections": "Sections",
+    "titles": {
+      "edit": "Edit Section",
+      "list": "Sections",
+      "show": "Section Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "type": "Type",
+      "link": "Link",
+      "data1": "Data1",
+      "data2": "Data2",
+      "data3": "Data3",
+      "feature_image": {
+        "label": "Images",
+        "description": "Upload Image",
+        "validation": "must be 1080x1080 px"
+      },
+      "isActive": {
+        "label": "Status",
+        "true": "Active",
+        "false": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "addresses": {
+      "addresses": "Addresses",
+      "address": "Address"
+    }
+  },
+  "category": {
+    "category": "Categories",
+    "titles": {
+      "list": "Categories",
+      "create": "Create Category",
+      "edit": "Edit Category"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "slug": "Slug",
+      "on_footer": "On Footer",
+      "feature_no": "Feature Number",
+      "parent": "Parent",
+      "parent_id": "Parent Category",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "description": "Description",
+      "childs": "Childs",
+      "products": "Products",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Search Description"
+      },
+      "on_footer": {
+        "label": "Footer",
+        "placeholder": "Search Footer"
+      },
+      "feature_no": {
+        "label": "Feature",
+        "placeholder": "Search Feature"
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "actions": {
+      "add": "Add new category",
+      "edit": "Edit category"
+    }
+  },
+  "contactus": {
+    "contactus": "Contact Us",
+    "titles": {
+      "list": "Contacts List",
+      "show": "Contact Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "createdAt": "Created At",
+      "read": {
+        "label": "Read",
+        "1": "Read",
+        "0": "New"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name, Email, Phone etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "read": {
+        "label": "Read",
+        "placeholder": "Select Read",
+        "true": "Read",
+        "false": "New"
+      },
+      "submit": "Filter"
+    }
+  },
+  "blogs": {
+    "blogs": "Blogs",
+    "titles": {
+      "edit": "Edit Blog",
+      "list": "Blogs",
+      "show": "Blog Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "cover_image": {
+        "label": "Cover Image",
+        "description": "Click or drag image to upload."
+      },
+      "name": "Name",
+      "slug": "Slug",
+      "short_name": "Short Note",
+      "author": "Author",
+      "publish_date": "Publish Date",
+      "description": "Description",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "author": {
+        "label": "Author",
+        "placeholder": "Search Author"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name,Short Note, Author, Description, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new blog",
+      "edit": "Edit blog"
+    }
+  },
+  "brands": {
+    "brands": "Brands",
+    "titles": {
+      "edit": "Edit Brand",
+      "list": "Brands",
+      "show": "Brand Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "cover_image": {
+        "label": "Cover Image",
+        "description": "Click or drag image to upload."
+      },
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name, Description, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new brand",
+      "edit": "Edit brand"
+    }
+  },
+  "agegroups": {
+    "agegroups": "Age Groups",
+    "titles": {
+      "edit": "Edit AgeGroup",
+      "list": "Age Groups",
+      "show": "AgeGroup Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name, Description, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new agegroup",
+      "edit": "Edit agegroup"
+    }
+  },
+  "sliders": {
+    "sliders": "Sliders",
+    "titles": {
+      "edit": "Edit Slider",
+      "list": "Sliders",
+      "show": "Slider Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "name": "Name",
+      "link": "Link",
+      "description": "Description",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name, Description, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new slider",
+      "edit": "Edit slider"
+    }
+  },
+  "faqs": {
+    "faqs": "Faqs",
+    "titles": {
+      "edit": "Edit Faq",
+      "list": "Faqs",
+      "show": "Faq Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Image",
+        "description": "Click or drag image to upload."
+      },
+      "question": "Question",
+      "answer": "Answer",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "question": {
+        "label": "Name",
+        "placeholder": "Search Question"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Question, Answer, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new faq",
+      "edit": "Edit faq"
+    }
+  },
+  "spages": {
+    "pages": "Pages",
+    "titles": {
+      "edit": "Edit Page",
+      "list": "Pages",
+      "show": "Page Detail"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "Feature Image",
+        "description": "Click or drag image to upload."
+      },
+      "cover_image": {
+        "label": "Cover Image",
+        "description": "Click or drag image to upload."
+      },
+      "name": "Name",
+      "slug": "Slug",
+      "type": "Type",
+      "is_menu": "Is On Menu",
+      "on_footer": "Is On Footer",
+      "description": "Description",
+      "createdAt": "Created At",
+      "isActive": {
+        "label": "Status",
+        "1": "Active",
+        "0": "Idle"
+      }
+    },
+    "filter": {
+      "title": "Filters",
+      "id": {
+        "label": "ID",
+        "placeholder": "Search ID"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Search Name"
+      },
+      "type": {
+        "label": "Type",
+        "placeholder": "Search Type"
+      },
+      "search": {
+        "label": "Search",
+        "placeholder": "Name, Description, etc."
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "is_menu": {
+        "label": "Menu",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "on_footer": {
+        "label": "Footer",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "isActive": {
+        "label": "Active",
+        "placeholder": "Select Status",
+        "true": "Yes",
+        "false": "No"
+      },
+      "submit": "Filter"
+    },
+    "actions": {
+      "add": "Add new page",
+      "edit": "Edit page"
+    }
+  },
+  "settings": {
+    "settings": "Settings",
+    "setting": "Setting",
+    "titles": {
+      "list": "Settings",
+      "show": "Setting",
+      "info": "Info",
+      "links": "Links"
+    },
+    "fields": {
+      "logo": "Logo",
+      "name": "Name",
+      "email": "Email",
+      "address1": "Address1",
+      "address2": "Address2",
+      "phone1": "Phone1",
+      "phone2": "Phone2",
+      "fb_link": "Fb Link",
+      "youtube_link": "Youtube Link",
+      "tiktok_link": "Tiktok Link",
+      "x_link": "X Link",
+      "insta_link": "Instagram Link",
+      "map_link": "Map Link",
+      "opening_hours": "Opeing Hours",
+      "description": "Description"
+    },
+    "actions": {
+      "edit": "Edit Setting"
+    }
+  }
+}

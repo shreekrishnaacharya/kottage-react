@@ -1,0 +1,754 @@
+{
+  "pages": {
+    "login": {
+      "title": "आफ्नो खातामा साइन इन गर्नुहोस्",
+      "signin": "साइन इन",
+      "signup": "साइन अप",
+      "divider": "वा",
+      "fields": {
+        "email": "इमेल",
+        "password": "पासवर्ड"
+      },
+      "errors": {
+        "validEmail": "अमान्य इमेल ठेगाना"
+      },
+      "buttons": {
+        "submit": "लगइन",
+        "forgotPassword": "पासवर्ड बिर्सनुभयो?",
+        "noAccount": "खाता छैन?",
+        "rememberMe": "मलाई सम्झनुहोस्"
+      }
+    },
+    "forgotPassword": {
+      "title": "तपाईंको पासवर्ड बिर्सनुभयो?",
+      "fields": {
+        "email": "इमेल"
+      },
+      "errors": {
+        "validEmail": "अमान्य इमेल ठेगाना"
+      },
+      "buttons": {
+        "submit": "रिसेट निर्देशनहरू पठाउनुहोस्"
+      }
+    },
+    "register": {
+      "title": "आफ्नो खाताको लागि साइन अप गर्नुहोस्",
+      "fields": {
+        "email": "इमेल",
+        "password": "पासवर्ड"
+      },
+      "errors": {
+        "validEmail": "अमान्य इमेल ठेगाना"
+      },
+      "buttons": {
+        "submit": "दर्ता गर्नुहोस्",
+        "haveAccount": "खाता छ?"
+      }
+    },
+    "updatePassword": {
+      "title": "पासवर्ड अपडेट गर्नुहोस्",
+      "fields": {
+        "password": "नयाँ पासवर्ड",
+        "confirmPassword": "नयाँ पासवर्ड पुष्टि गर्नुहोस्"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "पासवर्ड मेल खाँदैन"
+      },
+      "buttons": {
+        "submit": "अपडेट गर्नुहोस्"
+      }
+    },
+    "error": {
+      "info": "तपाईंले {{action}} कम्पोनेन्ट {{resource}} स्रोतमा थप्न बिर्सनुभयो होला।",
+      "404": "माफ गर्नुहोस्, तपाईंले भ्रमण गरेको पृष्ठ अवस्थित छैन।",
+      "resource404": "के तपाईंले {{resource}} स्रोत सिर्जना गर्नुभएको छ भन्ने पक्का गर्नुहोस्।",
+      "backHome": "गृह पृष्ठमा फर्किनुहोस्"
+    }
+  },
+  "actions": {
+    "list": "सूची",
+    "create": "सिर्जना गर्नुहोस्",
+    "edit": "सम्पादन गर्नुहोस्",
+    "show": "प्रदर्शन गर्नुहोस्",
+    "delete": "मेटाउनुहोस्",
+    "cancel": "रद्द गर्नुहोस्"
+  },
+  "buttons": {
+    "add": "थप्नुहोस्",
+    "create": "सिर्जना गर्नुहोस्",
+    "save": "सुरक्षित गर्नुहोस्",
+    "logout": "लगआउट गर्नुहोस्",
+    "delete": "मेटाउनुहोस्",
+    "edit": "सम्पादन गर्नुहोस्",
+    "cancel": "रद्द गर्नुहोस्",
+    "confirm": "के तपाई पक्का हुनुहुन्छ?",
+    "filter": "फिल्टर गर्नुहोस्",
+    "clear": "मेटाउनुहोस्",
+    "refresh": "रिफ्रेस गर्नुहोस्",
+    "show": "प्रदर्शन गर्नुहोस्",
+    "undo": "रद्द गर्नुहोस्",
+    "import": "आयात गर्नुहोस्",
+    "export": "निर्यात गर्नुहोस्",
+    "clone": "क्लोन गर्नुहोस्",
+    "accept": "स्वीकार्नुहोस्",
+    "acceptAll": "सबै स्विकार्नुहोस्",
+    "reject": "अस्विकार गर्नुहोस्",
+    "rejectAll": "सबै अस्विकार गर्नुहोस्",
+    "nextStep": "अर्को चरण",
+    "previousStep": "अघिल्लो चरण",
+    "uploadImage": "तस्वीर अपलोड गर्नुहोस्"
+  },
+  "labels": {
+    "image": "तस्वीर"
+  },
+  "other": {
+    "enter": "प्रविष्ट गर्नुहोस्"
+  },
+  "loading": "लोड हुँदैछ",
+  "tags": {
+    "clone": "क्लोन"
+  },
+  "table": {
+    "actions": "क्रियाहरू",
+    "inTotal": "कुलमा"
+  },
+  "search": {
+    "placeholder": "स्टोर ID, इमेल, कीवर्ड द्वारा खोजी गर्नुहोस्",
+    "more": "थप"
+  },
+  "isActive": {
+    "placeholder": "स्थिति द्वारा खोजी गर्नुहोस्",
+    "label": "स्थिति",
+    "true": "सक्रिय",
+    "false": "आदर्श"
+  },
+  "status": {
+    "label": "स्थिति",
+    "enable": "सक्षम गर्नुहोस्",
+    "disable": "असक्षम गर्नुहोस्"
+  },
+  "onFooter": {
+    "label": "फुटरमा",
+    "enable": "हो",
+    "disable": "होइन"
+  },
+  "yesno": {
+    "label": "स्थिति",
+    "yes": "हो",
+    "no": "होइन"
+  },
+  "read": {
+    "label": "पढ्नुहोस्",
+    "read": "पढ्नुभएको",
+    "new": "नयाँ"
+  },
+  "gender": {
+    "label": "लिङ्ग",
+    "Male": "पुरुष",
+    "Female": "महिला",
+    "Unisex": "युनिसेक्स"
+  },
+  "warnWhenUnsavedChanges": "तपाईं पक्का हुनुहुन्छ कि छोड्न चाहनुहुन्छ? तपाईंका अपूर्ण परिवर्तनहरू छन्।",
+  "notifications": {
+    "success": "सफल",
+    "error": "त्रुटि (स्थिति कोड: {{statusCode}})",
+    "undoable": "तपाईंसँग {{seconds}} सेकेन्ड छ रद्द गर्न",
+    "createSuccess": "सफलतापूर्वक {{resource}} सिर्जना गरियो",
+    "createError": "{{resource}} सिर्जना गर्दा त्रुटि भयो (स्थिति कोड: {{statusCode}})",
+    "deleteSuccess": "सफलतापूर्वक {{resource}} मेटियो",
+    "deleteError": "{{resource}} मेटाउँदा त्रुटि भयो (स्थिति कोड: {{statusCode}})",
+    "editSuccess": "सफलतापूर्वक {{resource}} सम्पादन गरियो",
+    "editError": "{{resource}} सम्पादन गर्दा त्रुटि भयो (स्थिति कोड: {{statusCode}})",
+    "importProgress": "आयात हुँदैछ: {{processed}}/{{total}}"
+  },
+  "dashboard": {
+    "title": "ड्यासबोर्ड",
+    "overview": {
+      "title": "सारांश"
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "date": {
+        "lastWeek": "गएको हप्ता",
+        "lastMonth": "गएको महिना",
+        "lastYear": "गएको वर्ष"
+      }
+    },
+    "deliveryMap": {
+      "title": "वितरण नक्सा"
+    },
+    "orders": {
+      "title": "अर्डरहरू"
+    },
+    "revenue": {
+      "title": "राजस्व"
+    },
+    "totalSales": {
+      "title": "कुल बिक्री"
+    },
+    "dailyRevenue": {
+      "title": "दैनिक राजस्व"
+    },
+    "dailyOrders": {
+      "title": "दैनिक अर्डरहरू"
+    },
+    "newCustomers": {
+      "title": "नयाँ ग्राहकहरू"
+    },
+    "timeline": {
+      "title": "समयरेखा",
+      "orderStatuses": {
+        "pending": "अर्डर तयार हुँदै",
+        "ready": "अर्डर तयार छ",
+        "on the way": "अर्डर बाटोमा छ",
+        "delivered": "अर्डर वितरण गरियो",
+        "cancelled": "अर्डर रद्द गरियो"
+      }
+    },
+    "recentOrders": {
+      "title": "भर्खरका अर्डरहरू"
+    },
+    "trendingMenus": {
+      "title": "दैनिक रुचाइएका मेनुहरू"
+    },
+    "trendingProducts": {
+      "title": "रुचाइएका उत्पादनहरू"
+    }
+  },
+  "enum": {
+    "orderStatuses": {
+      "Pending": "पेन्डिङ",
+      "Ready": "तयार",
+      "On The Way": "बाटोमा",
+      "Delivered": "वितरण गरियो",
+      "Cancelled": "रद्द गरियो"
+    },
+    "status": {
+      "Active": "सक्रिय",
+      "Inactive": "निष्क्रिय"
+    }
+  },
+  "orders": {
+    "orders": "अर्डरहरू",
+    "order": "अर्डर",
+    "titles": {
+      "deliveryMap": "वितरण नक्सा",
+      "deliveryDetails": "वितरण विवरण",
+      "products": "उत्पादनहरू",
+      "list": "अर्डरहरू",
+      "show": "अर्डर प्रदर्शन"
+    },
+    "fields": {
+      "orderNumber": "अर्डर नम्बर",
+      "orderID": "अर्डर ID",
+      "status": "स्थिति",
+      "store": "स्टोर",
+      "user": "प्रयोगकर्ता",
+      "products": "उत्पादनहरू",
+      "createdAt": "सिर्जना गरिएको मिति",
+      "amount": "रकम",
+      "itemsAmount": "{{amount}} वस्तुहरू",
+      "order": "अर्डर",
+      "customer": "ग्राहक",
+      "courier": "कुरियर",
+      "phone": "फोन",
+      "deliveryTime": "वितरण समय"
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "search": {
+        "label": "खोजी",
+        "placeholder": "अर्डर नम्बर, प्रयोगकर्ता, आदि।"
+      },
+      "status": {
+        "label": "स्थिति",
+        "placeholder": "अर्डर स्थिति"
+      },
+      "store": {
+        "label": "स्टोर",
+        "placeholder": "स्टोरहरू खोज्नुहोस्"
+      },
+      "user": {
+        "label": "प्रयोगकर्ता",
+        "placeholder": "प्रयोगकर्ताहरू खोज्नुहोस्"
+      },
+      "customer": {
+        "label": "ग्राहक",
+        "placeholder": "ग्राहकहरू खोज्नुहोस्"
+      },
+      "createdAt": {
+        "label": "सिर्जना गरिएको मिति"
+      },
+      "orderNumber": {
+        "label": "अर्डर नम्बर",
+        "placeholder": "अर्डर नम्बर खोज्नुहोस्"
+      },
+      "submit": "फिल्टर गर्नुहोस्"
+    },
+    "courier": {
+      "deliveryTime": "वितरण समय",
+      "phone": "फोन"
+    },
+    "deliverables": {
+      "deliverables": "डेलिभरेबल्स",
+      "fields": {
+        "items": "वस्तुहरू",
+        "quantity": "मात्रा",
+        "price": "मूल्य",
+        "total": "कुल"
+      },
+      "mainTotal": "मुख्य कुल"
+    }
+  },
+  "products": {
+    "products": "उत्पादनहरू",
+    "titles": {
+      "list": "उत्पादनहरू",
+      "create": "उत्पादन सिर्जना गर्नुहोस्",
+      "edit": "उत्पादन सम्पादन गर्नुहोस्"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "नाम",
+      "slug": "स्लग",
+      "short_name": "छोटो नोट",
+      "brand": "ब्राण्ड",
+      "description": "विवरण",
+      "isActive": {
+        "label": "स्थिति",
+        "true": "उपलब्ध",
+        "false": "अउपलब्ध"
+      },
+      "price": "मूल्य",
+      "agegroup": "उमेर समूह",
+      "discount": "छुट",
+      "rating": "रेटिङ",
+      "views": "दृष्टिकोणहरू",
+      "stock": "स्टक",
+      "gender": "लिङ्ग",
+      "keywords": "कीवर्डहरू",
+      "category": "कोटी",
+      "feature_image": {
+        "label": "तस्बिरहरू",
+        "description": "तस्वीर अपलोड गर्नुहोस्",
+        "validation": "1080x1080 पिक्सेल हुनुपर्छ"
+      },
+      "createdAt": "सिर्जना गरिएको मिति"
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "allCategories": {
+        "label": "सबै कोटीहरू",
+        "placeholder": "सबै कोटीहरू"
+      },
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "description": {
+        "label": "विवरण",
+        "placeholder": "विवरण खोज्नुहोस्"
+      },
+      "category": {
+        "label": "कोटी",
+        "placeholder": "कोटी खोज्नुहोस्"
+      },
+      "createdAt": {
+        "label": "सिर्जना गरिएको मिति"
+      },
+      "isActive": {
+        "label": "स्थिति",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "उपलब्ध",
+        "false": "अउपलब्ध"
+      }
+    },
+    "actions": {
+      "add": "नयाँ उत्पादन थप्नुहोस्",
+      "edit": "उत्पादन सम्पादन गर्नुहोस्"
+    }
+  },
+  "ads": {
+    "ads": "विज्ञापनहरू",
+    "titles": {
+      "list": "विज्ञापन सूची",
+      "create": "विज्ञापन सिर्जना गर्नुहोस्"
+    },
+    "fields": {
+      "feature_image": {
+        "label": "तस्बिरहरू",
+        "description": "तस्बिर अपलोड गर्नुहोस्",
+        "validation": "1080x1080 पिक्सेल हुनुपर्छ"
+      },
+      "name": "नाम",
+      "link": "लिङ्क"
+    }
+  },
+  "coupons": {
+    "coupons": "कुपनहरू",
+    "titles": {
+      "list": "कुपन सूची",
+      "create": "कुपन सिर्जना गर्नुहोस्"
+    },
+    "fields": {
+      "name": "नाम",
+      "code": "कोड",
+      "type": "प्रकार",
+      "uses": "प्रयोग",
+      "value": "मूल्य",
+      "uses_limit": "प्रयोग सीमा",
+      "ends_on": "समाप्त हुने मिति"
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम प्रविष्ट गर्नुहोस्"
+      },
+      "code": {
+        "label": "कोड",
+        "placeholder": "कोड प्रविष्ट गर्नुहोस्"
+      },
+      "type": {
+        "label": "प्रकार",
+        "placeholder": "प्रकार चयन गर्नुहोस्"
+      },
+      "uses": {
+        "label": "प्रयोग",
+        "placeholder": "प्रयोग प्रविष्ट गर्नुहोस्"
+      },
+      "value": {
+        "label": "मूल्य",
+        "placeholder": "मूल्य प्रविष्ट गर्नुहोस्"
+      }
+    },
+    "actions": {
+      "add": "कुपन थप्नुहोस्",
+      "delete": "कुपन मेटाउनुहोस्"
+    }
+  },
+  "promotions": {
+    "titles": {
+      "tcategory": "ट्रेंडिङ कोटीहरू",
+      "fcategory": "विशेष कोटीहरू",
+      "adslist": "विज्ञापन सूची",
+      "servicelist": "सेवा सूची"
+    },
+    "fields": {
+      "categoryList": "कोटी सूची",
+      "addedToTrending": "ट्रेंडिङमा थपियो",
+      "addedToFeatured": "विशेषमा थपियो"
+    },
+    "actions": {
+      "addAds": "विज्ञापन थप्नुहोस्",
+      "addServices": "सेवा थप्नुहोस्"
+    }
+  },
+  "attributes": {
+    "attributes": "गुणहरू",
+    "titles": {
+      "list": "गुणहरू",
+      "create": "गुण सिर्जना गर्नुहोस्",
+      "edit": "गुण सम्पादन गर्नुहोस्"
+    },
+    "fields": {
+      "id": "ID",
+      "attribute": "गुणहरू",
+      "price": "मूल्य",
+      "stock": "स्टक",
+      "default": "पूर्वनिर्धारित",
+      "createdAt": "सिर्जना मिति"
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "allCategories": {
+        "label": "सबै कोटीहरू",
+        "placeholder": "सबै कोटीहरू"
+      },
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "description": {
+        "label": "विवरण",
+        "placeholder": "विवरण खोज्नुहोस्"
+      },
+      "category": {
+        "label": "कोटी",
+        "placeholder": "कोटी खोज्नुहोस्"
+      },
+      "createdAt": {
+        "label": "सिर्जना मिति"
+      },
+      "isActive": {
+        "label": "स्थिति",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "उपलब्ध",
+        "false": "अउपलब्ध"
+      }
+    },
+    "actions": {
+      "add": "नयाँ गुण थप्नुहोस्",
+      "edit": "गुण सम्पादन गर्नुहोस्",
+      "addField": "फिल्ड थप्नुहोस्"
+    }
+  },
+  "reviews": {
+    "reviews": "समीक्षा",
+    "titles": {
+      "list": "समीक्षा सूची"
+    },
+    "fields": {
+      "avatar": "अवतार",
+      "user": "प्रयोगकर्ता",
+      "product": "उत्पादन",
+      "orderId": "अर्डर ID",
+      "message": "सन्देश",
+      "rating": "रेटिङ"
+    },
+    "filter": {
+      "user": {
+        "label": "प्रयोगकर्ता",
+        "placeholder": "प्रयोगकर्ता खोज्नुहोस्"
+      },
+      "ratings": {
+        "label": "रेटिङ",
+        "placeholder": "रेटिङ खोज्नुहोस्"
+      },
+      "product": {
+        "label": "उत्पादन",
+        "placeholder": "उत्पादन खोज्नुहोस्"
+      }
+    }
+  },
+  "users": {
+    "users": "ग्राहकहरू",
+    "titles": {
+      "edit": "ग्राहक सम्पादन गर्नुहोस्",
+      "list": "ग्राहक सूची",
+      "show": "ग्राहक विवरण"
+    },
+    "fields": {
+      "id": "ID",
+      "avatar": {
+        "label": "अवतार",
+        "description": "क्लिक वा तान्नुभएकै अवतार चित्रलाई यस क्षेत्रमा अपलोड गर्नुहोस्।"
+      },
+      "name": "नाम",
+      "email": "इमेल",
+      "phone": "फोन",
+      "createdAt": "सिर्जना मिति",
+      "addresses": "ठेगानाहरू",
+      "isActive": {
+        "label": "स्थिति",
+        "true": "सक्रिय",
+        "false": "निष्क्रिय"
+      }
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "gsm": {
+        "label": "GSM",
+        "placeholder": "GSM खोज्नुहोस्"
+      },
+      "search": {
+        "label": "खोजी",
+        "placeholder": "पहिलो नाम, अन्तिम नाम, GSM, आदि।"
+      },
+      "createdAt": {
+        "label": "सिर्जना मिति"
+      },
+      "gender": {
+        "label": "लिङ्ग",
+        "placeholder": "लिङ्ग",
+        "male": "पुरुष",
+        "female": "महिला"
+      },
+      "isActive": {
+        "label": "सक्रिय",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "हो",
+        "false": "होइन"
+      },
+      "submit": "फिल्टर गर्नुहोस्"
+    },
+    "addresses": {
+      "addresses": "ठेगानाहरू",
+      "address": "ठेगाना"
+    }
+  },
+  "admins": {
+    "admins": "प्रशासकहरू",
+    "titles": {
+      "edit": "प्रशासक सम्पादन गर्नुहोस्",
+      "list": "प्रशासक सूची",
+      "show": "प्रशासक विवरण"
+    },
+    "fields": {
+      "id": "ID",
+      "feature_image": {
+        "label": "अवतार",
+        "description": "अवतार अपलोड गर्नुहोस्"
+      },
+      "name": "नाम",
+      "email": "इमेल",
+      "password": "पासवर्ड",
+      "createdAt": "सिर्जना मिति",
+      "isActive": {
+        "label": "स्थिति",
+        "true": "सक्रिय",
+        "false": "निष्क्रिय"
+      }
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "email": {
+        "label": "इमेल",
+        "placeholder": "इमेल खोज्नुहोस्"
+      },
+      "search": {
+        "label": "खोजी",
+        "placeholder": "नाम, इमेल, आदि।"
+      },
+      "createdAt": {
+        "label": "सिर्जना मिति"
+      },
+      "isActive": {
+        "label": "सक्रिय",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "हो",
+        "false": "होइन"
+      },
+      "submit": "फिल्टर गर्नुहोस्"
+    },
+    "actions": {
+      "add": "प्रशासक थप्नुहोस्",
+      "edit": "प्रशासक सम्पादन गर्नुहोस्"
+    }
+  },
+  "subscribers": {
+    "subscribers": "सदस्यहरू",
+    "titles": {
+      "list": "सदस्य सूची"
+    },
+    "fields": {
+      "id": "ID",
+      "email": "इमेल",
+      "createdAt": "सिर्जना मिति"
+    }
+  },
+  "sections": {
+    "sections": "विभागहरू",
+    "titles": {
+      "edit": "विभाग सम्पादन गर्नुहोस्",
+      "list": "विभाग सूची",
+      "show": "विभाग विवरण"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "नाम",
+      "type": "प्रकार",
+      "link": "लिङ्क",
+      "data1": "डेटा 1",
+      "data2": "डेटा 2",
+      "data3": "डेटा 3",
+      "feature_image": {
+        "label": "तस्बिरहरू",
+        "description": "तस्बिर अपलोड गर्नुहोस्",
+        "validation": "1080x1080 पिक्सेल हुनुपर्छ"
+      },
+      "isActive": {
+        "label": "स्थिति",
+        "true": "सक्रिय",
+        "false": "निष्क्रिय"
+      }
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "isActive": {
+        "label": "सक्रिय",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "हो",
+        "false": "होइन"
+      },
+      "submit": "फिल्टर गर्नुहोस्"
+    }
+  },
+  "contactus": {
+    "contactus": "सम्पर्क गर्नुहोस्",
+    "titles": {
+      "list": "सम्पर्क सूची",
+      "show": "सम्पर्क विवरण"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "नाम",
+      "email": "इमेल",
+      "phone": "फोन",
+      "message": "सन्देश",
+      "createdAt": "सिर्जना मिति",
+      "read": {
+        "label": "पढ्नुहोस्",
+        "1": "पढिएको",
+        "0": "नयाँ"
+      }
+    },
+    "filter": {
+      "title": "फिल्टरहरू",
+      "id": {
+        "label": "ID",
+        "placeholder": "ID खोज्नुहोस्"
+      },
+      "name": {
+        "label": "नाम",
+        "placeholder": "नाम खोज्नुहोस्"
+      },
+      "search": {
+        "label": "खोजी",
+        "placeholder": "नाम, इमेल, फोन आदि।"
+      },
+      "createdAt": {
+        "label": "सिर्जना मिति"
+      },
+      "read": {
+        "label": "पढ्नुहोस्",
+        "placeholder": "स्थिति चयन गर्नुहोस्",
+        "true": "पढिएको",
+        "false": "नयाँ"
+      },
+      "submit": "फिल्टर गर्नुहोस्"
+    }
+  }
+}
