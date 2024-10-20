@@ -325,6 +325,7 @@
       "rating": "Rating",
       "views": "Views",
       "stock": "Stock",
+      "attributes":"Attributes",
       "gender": "Gender",
       "keywords": "Keywords",
       "category": "Category",
