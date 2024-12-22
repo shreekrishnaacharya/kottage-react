@@ -198,11 +198,11 @@
     "timeline": {
       "title": "Timeline",
       "orderStatuses": {
-        "pending": "Preparing order",
-        "ready": "Order is ready",
-        "on the way": "Order is on the way",
-        "delivered": "Order is delivered",
-        "cancelled": "Order is cancelled"
+        "pending": "Pending",
+        "processing": "Processing",
+        "ready": "Ready",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
       }
     },
     "recentOrders": {
@@ -217,11 +217,11 @@
   },
   "enum": {
     "orderStatuses": {
-      "Pending": "Pending",
-      "Ready": "Ready",
-      "On The Way": "On the way",
-      "Delivered": "Delivered",
-      "Cancelled": "Cancelled"
+      "pending": "Pending",
+      "processing": "Processing",
+      "ready": "Ready",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
     },
     "status": {
       "Active": "Active",
@@ -235,6 +235,7 @@
       "deliveryMap": "Delivery Map",
       "deliveryDetails": "Delivery Details",
       "products": "Products",
+      "addPayment":"Add Payment",
       "list": "Orders",
       "show": "Order"
     },
@@ -252,6 +253,7 @@
       "customer": "Customer",
       "courier": "Courier",
       "phone": "Phone",
+      "email": "Email",
       "deliveryTime": "Delivery Time"
     },
     "filter": {
@@ -438,6 +440,7 @@
       "tcategory": "Trending Categories",
       "fcategory": "Featured Categories",
       "adslist": "Ads List",
+      "motolist": "Moto List",
       "servicelist": "Service List"
     },
     "fields": {
@@ -447,7 +450,8 @@
     },
     "actions": {
       "addAds": "Add Ads",
-      "addServices": "Add Service"
+      "addServices": "Add Service",
+      "addMoto": "Add Moto"
     }
   },
   "attributes": {
