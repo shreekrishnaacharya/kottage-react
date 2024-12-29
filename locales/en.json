@@ -235,7 +235,7 @@
       "deliveryMap": "Delivery Map",
       "deliveryDetails": "Delivery Details",
       "products": "Products",
-      "addPayment":"Add Payment",
+      "addPayment": "Add Payment",
       "list": "Orders",
       "show": "Order"
     },
@@ -388,7 +388,9 @@
         "validation": "must be 1080x1080 px"
       },
       "name": "Name",
-      "link": "Link"
+      "link": "Link",
+      "image": "Image Link",
+      "video": "Video Link"
     }
   },
   "coupons": {
@@ -681,6 +683,8 @@
       "name": "Name",
       "type": "Type",
       "link": "Link",
+      "image": "Image Link",
+      "video": "Video Link",
       "data1": "Data1",
       "data2": "Data2",
       "data3": "Data3",
