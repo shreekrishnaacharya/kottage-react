@@ -162,6 +162,7 @@
     "importProgress": "Importing: {{processed}}/{{total}}"
   },
   "dashboard": {
+    "dashboard": "Dashboard",
     "title": "Dashboard",
     "overview": {
       "title": "Overview"
